@@ -1,0 +1,2119 @@
+{
+	"info": {
+		"_postman_id": "1092892d-5dd1-4375-96bf-3aa86843aba9",
+		"name": "HTTP request capture",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28095965",
+		"_collection_link": "https://www.postman.com/science-cosmonaut-75965667/workspace/test-workspace/collection/28095965-1092892d-5dd1-4375-96bf-3aa86843aba9?action=share&creator=28095965&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "http://users.bugred.ru/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc���V�R�\tʗ�1��\f�i�\r��3|\f�-sDq8���Y��\u0000\u0012\t�7\u0017��Y\u001dq\"�����'\u001ay\b�뎟C���u����\u0018>@,tt�\u001b�\"+�P�i�t�����$e��x--��\u001b[\fIP��F��⁁��R\u0005\u000e�t|\u000e���\u0010̠�\u001fQH%L=�%�\u0005\u0003�1ԝaW����a�w7�X����\u0010�<e�\u0013��\u0006�G��j�Z�=<�\u0017E3�\\�oM��\u001a|��\\���a0ju��&"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc�E^���X��P�0Q�\u0019�ɵ\u0015ѫ^�\u0011S-�Ucƃ\u0015<H��3�0\u000e\u001aɇ����;k~\u0016��yayc�\rn\u0019\\����\u0000��g���A��\u0000�U\u0013��0��Im\u001c_�}& �\u000bS%��H�C\u001e�{��`�߇4�\u0014�c;l�b\u001d���5��[!oa3��\u0006\u0013�|�Ɍ��QAۨ�\u0002v�o]Nc\u0013.�I�\te�+\u0001�NqX\u0005S=Q��Q�e�\u0014��4�̵�\u0011a"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc��N��G�ݿ��'#ڻ��Ϗ�G��ӽDya�\u0006W/�`�\u0017�cQ�r\u00163�#G���\u0011�\u000e>q�ҬOQ6�!-�(�\u0014#��'\u0000Y�p���\u0018)�9]\u0018�\u001dLR��\"J��[�\b�+R�:Z�\u0018Y\u0006�\u0017�2�����U�ݱ��\u0015D\u0007)?=��yL2�£֚�Db�k�\u001f¶,�h&��b2 ׵�C�Z�3~�%\u0003Ba\f����{\b�.���XfwV�.f�D��a�hT��|�d'�/��3Db�&��[���A�\u000e�\u0011}�O��\u0010E��\u0004\u0010��I>�Ѫ��+V�\u001f|_\u001dK���J�Y� n�\bm���|���"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"url": {
+					"raw": "http://users.bugred.ru/",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://91.105.192.100:80/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "91.105.192.100:80"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "content-length",
+						"value": "192"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,en,*"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0005\u0001�(<�d�\u0000\u0000\u0000x�F`A}$~�>F\b �\u0013Q,c~o��S�ʄKXIB�.����q̛�l`C! �� W\u000b�t.K#\u0000�\u0010ǌ�ݝ\u000b���N�t �\u001f����u�[!鷖߼�3@y��",
+							"value": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://91.105.192.100:80/api",
+					"protocol": "http",
+					"host": [
+						"91",
+						"105",
+						"192",
+						"100"
+					],
+					"port": "80",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://91.105.192.100:80/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "91.105.192.100:80"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "content-length",
+						"value": "344"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,en,*"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "\u0005��Qc��\u0003����k��\u001d\f\u000b�\u0000��v\u0018\u0016��8{�Xu��\u0019>'\u0006\u001eg:�\u0011\u0017aR�\u0018",
+							"value": ""
+						},
+						{
+							"key": "Esn{�",
+							"value": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://91.105.192.100:80/api",
+					"protocol": "http",
+					"host": [
+						"91",
+						"105",
+						"192",
+						"100"
+					],
+					"port": "80",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://91.105.192.100:80/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "91.105.192.100:80"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "content-length",
+						"value": "344"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,en,*"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "\u0005��Qc�¿�#�1*�n\u0012���z�\u000e �BkPeC��<`8TE�\u0006͕�J��)�!֍6�U)���c�؟ȴ�U*\rz!L�\t��\\*\u001c�񹾸?�0M�� �\u0002��C\t6����og:\u0010��ܚ\u0000]���I\n2 ��",
+							"value": ""
+						},
+						{
+							"key": "\"���Vhf1�,䏛��1\u0003bM'\u000b��V�Po}���ɇ)i^�{�g��7V��\n��ڑ��Ѫu2�xӤ�\u0004@��\u001c\u001d�a�\\����0T6\u0019�M��Ȯ;3�H\u0007#V\u0002\u0019��ٶ��h����q�\u001a$]t�\u001c���T���h����>��B�W��Ӹ\u0000H�nzh",
+							"value": "�0�e�H\fz��jt�#\t�f����;���nH��\u00062u1�!:\u0015i��?��H\u0005]�ײ_\u0002H�\u0010I�B�"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://91.105.192.100:80/api",
+					"protocol": "http",
+					"host": [
+						"91",
+						"105",
+						"192",
+						"100"
+					],
+					"port": "80",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://91.105.192.100:80/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "91.105.192.100:80"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "content-length",
+						"value": "328"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,en,*"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "\u0005��Qc�O3�r\b\f�K��`\u000f��\u0001'���:|�Kp�/\u001e�\u001c��eí\u0003S\rs\u0016p��\u0005�j�׈�0\bK\u001b�\\�\u0000ٲ�ƽ�2\u0001��\u0006�ݺ*O\u001c��!\f�٠�uX�A\u001e�i����d��{�J����E\u001d3�C�G{\u001e",
+							"value": "UaM�\\�؝\u000b\u001f�y�\u0014�K\\�G�QG�u\u001f���V�o�\fG^ �\u000eޫ�ϵR�[Z7\u000e^"
+						},
+						{
+							"key": "de�\ré�\\����Ji�-��\u001f[�ꇶY�b0�o�[���\u000b�w���v��{b�!Dvd\u0010gO�hc�*\u0018֧�\u0011X\b�T��|\r�\u0002�(�\u0012��\u000f\u001ccB\"�ϹG\u000f`�.o�\u0004V��mݶP�v�mW��1(�~6[\u0018�\u000e��#�T5�(�",
+							"value": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://91.105.192.100:80/api",
+					"protocol": "http",
+					"host": [
+						"91",
+						"105",
+						"192",
+						"100"
+					],
+					"port": "80",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://91.105.192.100:80/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "91.105.192.100:80"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "content-length",
+						"value": "328"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,en,*"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "^��U��Ь\u0018�e�Lr�\u0014��.\u0012)μ�BMM��*���\u0014\u0003�@�\u001bkk�^U.�>���W)��߁�\u0011n��孭eP�\u0017�?N��NXs�",
+							"value": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://91.105.192.100:80/api",
+					"protocol": "http",
+					"host": [
+						"91",
+						"105",
+						"192",
+						"100"
+					],
+					"port": "80",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://91.105.192.100:80/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "91.105.192.100:80"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "content-length",
+						"value": "328"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,en,*"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "\u0005��Qc�\u00013��\u001cʫd�:�j�z�${6�Ohꫥ\np�4\f}\t\u0011�\u0007",
+							"value": "�h��*\u0001t�6�^�\u0014�kZ)��:Β�\u0017B;��� \u000f���\u000b�\u0010��\u0002\u0002J^ޭ���\u001c)\u0013\u0003A^�j<�\\�\u0016�')�\u001e�V�L�~�R"
+						},
+						{
+							"key": "��xrg��_*��rU�/\u000b(\t�\u000f����?�_��'ͼ\bo�\"M�4}���,��jU/G\u0004|�ұ���Nkk7���n�ʅ~�o鴘",
+							"value": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://91.105.192.100:80/api",
+					"protocol": "http",
+					"host": [
+						"91",
+						"105",
+						"192",
+						"100"
+					],
+					"port": "80",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://91.105.192.100:80/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "91.105.192.100:80"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "content-length",
+						"value": "328"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,en,*"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "\u0005��Qc��$?I\u0002��͢\t8��H��",
+							"value": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://91.105.192.100:80/api",
+					"protocol": "http",
+					"host": [
+						"91",
+						"105",
+						"192",
+						"100"
+					],
+					"port": "80",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://91.105.192.100:80/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "91.105.192.100:80"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "content-length",
+						"value": "280"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,en,*"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "\u0005��Qc��~�\u0013�tn ���#\u0010r.-�jQ���\u001b>;�\u000eg\u00036�\"�b5���F�TƝ�\r�L�\u001d�!�m:K\r�z�ҡ�ѮI�TB\u001b7e��\u001eG{ \u0011\f��6�-�÷7b���Z�8�`ZP�\u0005����\u0001��e�Z\u001c\u001a�\u0007\n�\u0004ߕ���lv�uJ\u0001g�p���\u000fd�\u0018WO\u0006A�\u0016�]ż�MGc�\u001f�k\u0013�����\u000bV�P��\tk\u0011ϓ\u0001\u001f\u000f�r9��\r�U ",
+							"value": "\u0012[;\u0010���\u0012�\u001b�B(�\u0002�\u0003�?\bۭ�(\u000e�\u001c\u001fṕ}ĝJ\u000f�e�{\u0007\u001e�q��s��\u0013����\u0016��*���"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://91.105.192.100:80/api",
+					"protocol": "http",
+					"host": [
+						"91",
+						"105",
+						"192",
+						"100"
+					],
+					"port": "80",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://91.105.192.100:80/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "91.105.192.100:80"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "content-length",
+						"value": "280"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,en,*"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://91.105.192.100:80/api",
+					"protocol": "http",
+					"host": [
+						"91",
+						"105",
+						"192",
+						"100"
+					],
+					"port": "80",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://91.105.192.100:80/api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "91.105.192.100:80"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "content-length",
+						"value": "280"
+					},
+					{
+						"key": "connection",
+						"value": "Keep-Alive"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru-RU,en,*"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "\u0005��Qc�¹*�\"�沼s���yTN�\u001cJ\bZN\u000fօ0z��V\t�\u0006\u000b��\u001f\u00119���\u000f���wd��gr�Q2,����\u001c�ftf�^\u0014V���*_��E�\u001d!�\u0006\u0000,��݁\u0001�@]?_\nL�)�ŀs�w�\\�\u001b�$�� R�J��aCi�\b֫�?떖��Ȗ�\u0018sm\u000f�{w_��\u001bf7�\u0011B\u001f}\u001c`7�l4}W|J𠃸\u0011\f�g\t���\u0011�#\f��\r[�4\u0019�\n���<\u0004�\u000eDJ^�/�:\r����ʈ�cG>g��",
+							"value": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://91.105.192.100:80/api",
+					"protocol": "http",
+					"host": [
+						"91",
+						"105",
+						"192",
+						"100"
+					],
+					"port": "80",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"url": {
+					"raw": "http://users.bugred.ru/",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/tasks/rest/doregister",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "user-agent",
+						"value": "PostmanRuntime/7.32.3"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "postman-token",
+						"value": "34a50be4-12d9-431b-844b-cb1f58e98b0b"
+					},
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "content-length",
+						"value": "79"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc��1\u001b���m�0\u0005���u�[\n\u0004%�%�\u0000��\t#5~8�\u000fNp�XK�F�\b'��a�=\u0002q�l\rJA�� �\r�?��Șʐ�\u000e2)��5$�XlR~\u0007]T1\u0001Њ��\u00016����q}�#2��ሣ�\u0012\u00033X"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/doregister",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"doregister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/tasks/rest/doregister",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "user-agent",
+						"value": "PostmanRuntime/7.32.3"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "postman-token",
+						"value": "34a50be4-12d9-431b-844b-cb1f58e98b0b"
+					},
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "content-length",
+						"value": "79"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc��6\u001d\u0017b�\u0017���Bɖ�J6��ծf���ĥ�\u000e\r\u001b�\\�@/\u0004b_\u0014��y7�=d���)�i�c���\u0002wxr酫f�\u0018�t!�*\u0016�(�Zk IqqJ�UT�P;\u0006��\u001e�Eٔ�\u0013\u0016��\bC�������`m@\u0003�\u0018�N<)��`5�\u0016{N�����w$\u000fR�\\���#���ݘ7A\u0012�Zyˣ��� zu���\u001a�;�.��茫�Wh�h?/xL�-��O��R�`�Є�\u0015�\u000b��wI�y�\"���\u0007�:�\u0012�\u001c�,�u�C\u0014/V��S}���\u0007�{�\u0000Â��\b�>9w��V��\u0017p\u0018K\u0017���hc�༺�\"L�wt\u0015G\u00014�\"�E�"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/doregister",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"doregister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/tasks/rest/doregister",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "user-agent",
+						"value": "PostmanRuntime/7.32.3"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "postman-token",
+						"value": "34a50be4-12d9-431b-844b-cb1f58e98b0b"
+					},
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "content-length",
+						"value": "79"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc��eN\u0013�\u0004/=[��=�>��a1��V5�\u001a��a��v9�����v8�r\u0014\u0011N7\u0006]?9E�xC'�xע��C� %�<�?R��ʂ8B��[V"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/doregister",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"doregister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/tasks/rest/doregister",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "user-agent",
+						"value": "PostmanRuntime/7.32.3"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "postman-token",
+						"value": "34a50be4-12d9-431b-844b-cb1f58e98b0b"
+					},
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "content-length",
+						"value": "79"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc�º���%��\\��ae��{2[8/I�HD���8��\u001a����\u000e\u0003�cg@\u001f3Q�\u0019��\u0016�\u001aZ`\u000fU��b/�$y�x2\u001fZ��Mڼ���!f�\bɇ��W5\u0019Ë\u000fL����Q\u001b"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/doregister",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"doregister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/tasks/rest/doregister",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "user-agent",
+						"value": "PostmanRuntime/7.32.3"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "postman-token",
+						"value": "34a50be4-12d9-431b-844b-cb1f58e98b0b"
+					},
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate, br"
+					},
+					{
+						"key": "connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "content-length",
+						"value": "79"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"test@mail.ru\",\r\n    \"name\": \" testqa\",\r\n    \"password\": \"1\"\r\n}"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/doregister",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"doregister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/user/login/index.html",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc���f1Lȹ\u001b\u0016�\u0006@?��z��\u001bn` }\u0016��ID���Ȯ�B�\u0015�?ݶ�I,�\u0003�h��}ML\u0017�Ԓ͝�I\u0018\fy�<!I\u001d:�\u0010l���'\u001aۦlگ`�-&������2�>�Gܹ}i\u001a�\u0007��GՄ�\u001d���P�K��\u0011�\u0018\u0004���ti�ISa#|\u0000µ�W�Paŏ��/�&7�N��X�\u0014q��(�y�p2�4:'\u0007f��nE#��\u0018���\u000eh�?�q^����'�_��\u0006-��Ʉ\u0006L\bN�\"j�x��\u0014���~�I�6\u0001�Y�4'5��5��%V~��q��S�=z>5Uq�\u001f�����z&\u0019��Oi�L���W_H�\u001c\u0016��+��xxy�����2H\"Y��\r�D0�J�\u0011z�U6\n\u000b_�\u001a"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/user/login/index.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"login",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/user/login/index.html",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc��\u0003!C|�$���\u0015!tv\u0011�T�|�o��\bV���0�^}�y��֣RFS�\b5R*�C�\u001c���\u001e���A��W�3{�i9=M#���h�`9�#�U�:�\\��F�2��eW�_֢ړ�P��&H��6�Z\u0004��ԇ�[�v�\u0005��[��ho��:нm1N�05\u001a�!\b"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/user/login/index.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"login",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/user/login/index.html",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc��(��{\u0007]\u0017�\u0004:7\n��>���k�.����b��Z��\u0015�4�l�B&�Ii�\u0002xX�\u000e0\t�����@��e�W���-\u0012ޥ�\\o#����rM�����iȹ���m�\\�$�<=q���\ni\u0016�ش�\u0011�|\u0007e��˹�>��\u0016\u000e\u001c[\u0012��5��V��~T�^�\u0019њ\u000b�՗X\u0002צ�4���\t�ū�\u000f~8��\u0001f¯$\u000f\u001f跉�ɰLY�Y \u0013h��\"�\b��\u0001�%U\r�\u0006Y�\u0010V�\u0000'\u001b��\u0012��U\u001d\u0006fm!σ\n����MG/\u0000?\t�\"P��T�w�*\u001b\u0014\u00011R\u0013\b�\u000b�$IK\u0000��\u0006�*�D�� �� "
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/user/login/index.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"login",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/user/login/index.html",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\u0005��Qc�/���3#\u0017\u0000\"\u001d�\f�\u0013@��� �Ro�\u0019��\u0017���\u001fd&i@�\u0004�R܏M��9[��\u001f�\u001d\u0015�zy.��Z\u0015v�\u000b\u001b\u001c��\u0004\u0017Lj�H�\u0018VZ�M`�s#��^!���]|�&Ka���\r%�n\u001c�mjt\\t�\u001ee��\u0012��`=�+\u001a���,�7�7ip\u001d\u0002���v����\u0018\u001e\u000f�\u0000d\n�Y���M�\u0010���-�\\�uƄ�e��$e1��w��lq�0~�\u001c"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/user/login/index.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"login",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/user/login/index.html",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"url": {
+					"raw": "http://users.bugred.ru/user/login/index.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"login",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/user/assets/ico/favicon.html",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "accept",
+						"value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/user/login/index.html"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"url": {
+					"raw": "http://users.bugred.ru/user/assets/ico/favicon.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"assets",
+						"ico",
+						"favicon.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/404",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "accept",
+						"value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/user/login/index.html"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"url": {
+					"raw": "http://users.bugred.ru/404",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"404"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/user/login/index.html",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "content-length",
+						"value": "31"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "origin",
+						"value": "http://users.bugred.ru"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/user/login/index.html"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "login",
+							"value": "test@mail.ru"
+						},
+						{
+							"key": "password",
+							"value": "1"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/user/login/index.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"login",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/user/login/index.html"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182; misterti=e4a4d1244fe786ff331a386494f5d489f1c6f33b6b0e515a64b00213f01ce304a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22misterti%22%3Bi%3A1%3Bs%3A128%3A%22b8221ab5b9b3591372b6a7b37f2e9972fbeca2b6fdcba73cbf0b084c68abf061096dfd1243fe5f5007a6705194257ed47f1264545dbda4e71464aa02c4755761%22%3B%7D"
+					}
+				],
+				"url": {
+					"raw": "http://users.bugred.ru/",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/user/login/index.html",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "host",
+						"value": "users.bugred.ru"
+					},
+					{
+						"key": "proxy-connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "content-length",
+						"value": "31"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "origin",
+						"value": "http://users.bugred.ru"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "referer",
+						"value": "http://users.bugred.ru/user/login/index.html"
+					},
+					{
+						"key": "accept-encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "_ym_uid=1687353882892737604; _ym_d=1687353882; PHPSESSID=b6ae4fd611a9e6e26049e7a170daf182"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "login",
+							"value": "test@mail.ru"
+						},
+						{
+							"key": "password",
+							"value": "1"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/user/login/index.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"login",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/tasks/rest/doregister",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"test@mail.ru\",\r\n    \"name\": \" testqa\",\r\n    \"password\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/doregister",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"doregister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/user/login/index.html",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					}
+				],
+				"url": {
+					"raw": "http://users.bugred.ru/user/login/index.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"login",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/user/login/index.html",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "login",
+							"value": "test@mail.ru"
+						},
+						{
+							"key": "password",
+							"value": "1"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/user/login/index.html",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"user",
+						"login",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://users.bugred.ru/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.3.904 Yowser/2.5 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					}
+				],
+				"url": {
+					"raw": "http://users.bugred.ru/",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
