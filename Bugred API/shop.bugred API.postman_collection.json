@@ -1,0 +1,416 @@
+{
+	"info": {
+		"_postman_id": "8d978696-79ce-4da0-b206-b032b9b72428",
+		"name": "shop.bugred API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28095965",
+		"_collection_link": "https://www.postman.com/science-cosmonaut-75965667/workspace/api-testing/collection/28095965-8d978696-79ce-4da0-b206-b032b9b72428?action=share&creator=28095965&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Create item",
+			"item": [
+				{
+					"name": "Creating item with all parameters",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Платье",
+									"type": "text"
+								},
+								{
+									"key": "section",
+									"value": "Платья",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Платье из новой коллекции!",
+									"type": "text"
+								},
+								{
+									"key": "color",
+									"value": "RED",
+									"type": "text"
+								},
+								{
+									"key": "size",
+									"value": "44",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "4300",
+									"type": "text"
+								},
+								{
+									"key": "params",
+									"value": "dress",
+									"type": "text"
+								},
+								{
+									"key": "photo",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}create",
+							"host": [
+								"{{url}}create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Creating item with required parameters",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Платье",
+									"type": "text"
+								},
+								{
+									"key": "section",
+									"value": "Платья",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Платье из новой коллекции!",
+									"type": "text"
+								},
+								{
+									"key": "color",
+									"value": "RED",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "44",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "4300",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "params",
+									"value": "dress",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "photo",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}create",
+							"host": [
+								"{{url}}create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Creating item with some required parameters",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Платье",
+									"type": "text"
+								},
+								{
+									"key": "section",
+									"value": "Платья",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Платье из новой коллекции!",
+									"type": "text"
+								},
+								{
+									"key": "color",
+									"value": "RED",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "44",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "4300",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "params",
+									"value": "dress",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "photo",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}create",
+							"host": [
+								"{{url}}create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Creating item without required parameters",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Платье",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "section",
+									"value": "Платья",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "description",
+									"value": "Платье из новой коллекции!",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "color",
+									"value": "RED",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "44",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "4300",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "params",
+									"value": "dress",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "photo",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}create",
+							"host": [
+								"{{url}}create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Creating item with incorrect date format",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Платье",
+									"type": "text"
+								},
+								{
+									"key": "section",
+									"value": "Платья",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Платье из новой коллекции!",
+									"type": "text"
+								},
+								{
+									"key": "color",
+									"value": "RED",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "44",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "testing string",
+									"type": "text"
+								},
+								{
+									"key": "params",
+									"value": "dress",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "photo",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}create",
+							"host": [
+								"{{url}}create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Creating item with empty JSON",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":,\r\n    \"section\":,\r\n    \"description\":,\r\n\r\n}"
+						},
+						"url": {
+							"raw": "{{url}}create",
+							"host": [
+								"{{url}}create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Creating item with incorrect method",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Платье",
+									"type": "text"
+								},
+								{
+									"key": "section",
+									"value": "Платья",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Платье из новой коллекции!",
+									"type": "text"
+								},
+								{
+									"key": "color",
+									"value": "RED",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "44",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "4300",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "params",
+									"value": "dress",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "photo",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}create",
+							"host": [
+								"{{url}}create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
